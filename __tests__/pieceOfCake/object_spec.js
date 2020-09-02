@@ -1,10 +1,11 @@
 describe('for object', () => {
-  it('should access property via dot or bracket', () => {
+  fit('should access property via dot or bracket', () => {
     const person = { name: 'Bob' };
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedName = undefined;
+    console.log('Debug:', person.name);
+    const expectedName = 'Bob';
     // --end->
 
     expect(person.name).toEqual(expectedName);
