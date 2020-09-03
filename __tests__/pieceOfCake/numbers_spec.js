@@ -10,7 +10,7 @@ describe('for numbers', () => {
     expect(dividingResult).toEqual(expected);
   });
 
-  fit('should be able to check if the number is NaN', () => {
+  it('should be able to check if the number is NaN', () => {
     const notNumber = 0 / 0;
 
     // <--start
